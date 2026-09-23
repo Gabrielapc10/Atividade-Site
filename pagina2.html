@@ -4,24 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+ <style>
+      body {
+        background-image: url("./img/palco-catedral.png");
+      }
+    </style>
+
 
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-     <header>
-      <section class="bloco">
-      <h1>Summer Beats Festival</h1>
-      <h4>"O ritmo que move uma geração"</h4>
+      <header>
+      <section >
+      <h1 id="titulo">Summer Beats Festival</h1>
+      <h4 id="sub-titulo">"O ritmo que move uma geração"</h4>
       </section>
      
     </header>
-    <section class="bloco">
+    <section >
       <div id="menu">
       <h4>MENU DE NAVEGAÇÃO</h4>
-       <a href="index.html"> <P>Home</P> </a>
-      <a href="pagina2.html"><p>Informações</p> </a>
-       <a href="pagina3.html"><p>Sobre</p></a>
-       <a href="contato.html"><p>Contato</p></a>
+       <button><a href="index.html"> <P>Home</P> </a></button>
+      <button><a href="pagina2.html"><p>Informações</p> </a></button>
+       <button><a href="pagina3.html"><p>Sobre</p></a></button>
+       <button><a href="contato.html"><p>Contato</p></a></button>
       </div>
    </section>
 <main>
@@ -39,7 +45,7 @@
             <td>Evento</td>
             <td>A tarde</td>
             <td rowspan="3">3hr </td>
-            <td colspan="3" rowspan="3" >Gratuito</td>
+            <td rowspan="3" >Gratuito</td>
         </tr>
         <tr>
             <td>Data</td>
@@ -55,11 +61,13 @@
     </tbody>
     </table>
 </main>
- <footer>
+ <div class="bloco">
+    <footer id="final">
       <li>contato.evento@email.com</li>
       <li>(22)98413-2555</li>
       <li>2026</li>
       <li>Todos os direitos reservados &copy;</li>
     </footer>
+  </div>
 </body>
 </html>

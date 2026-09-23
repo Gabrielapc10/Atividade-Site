@@ -1,27 +1,116 @@
- body{
-    background-image: url(./img/palco-catedraal);
- }
 #titulo , #sub-titulo{
-    color: rgb(239, 116, 141);
-    height: 10px;
-    width: 1920px;
-    gap: 0%;
+    color: rgb(247, 172, 10);
+    font-size: 80px;
+    text-align: center;
+}
+#sub-titulo{
+    color: rgb(94, 69, 17);
+    font-size: 24px;
     padding: 10px;
+    text-align: center;
 }
 .bloco{
-    background-color:rgb(230, 237, 238);
     margin-bottom: 20px;
-    padding: 20px;
-    border: dashed pink;
-    border-radius: 10px;
+    padding: 20px;  
 }
 #menu h4{
-    color:darkmagenta;
+    color:rgb(241, 241, 241);
 }
 
-.sobre h3{
-    /* color: blueviolet; */
-    /* margin:20px; */
-    border: dashed pink;
+.texto-sobre{
+    border: 3px solid  rgb(55, 0, 255);
+    border-radius: 5px;
+    background-color:  rgb(210, 218, 250);
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding: 10px;    
+}
+
+button:hover{
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(255, 6, 197);
+    color:rgb(242, 137, 0);
+}
+button:active{
+    transform: scaleX(1);
+    transform: scaleY(1.7);
+    transform: rotate(360deg);
+    transition: 4s;
+}
+h2{
+    color: rgb(251, 3, 94);
+}
+h3{
+    color:rgb(247, 10, 164);
+}
+
+.lista-destaque{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    font-weight: bold;
+    color:rgb(55, 0, 255);
+    gap: 5px;
+}
+.lista-destaque div{
+    background-color:rgb(210, 218, 250);
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* #final{
+    border: 3px solid rgb(55, 0, 255);
+    border-radius: 5px;
+    background-color: rgb(210, 218, 250); 
+    color:rgb(247, 10, 164);
+    margin-bottom: 10px;
+    text-align: center;
+} */
+table {
+width: 300px;
+border: 10px;
+margin: 30px ;
+background-color: rgb(251, 12, 239);
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.imagensdoevento{
+    /* border:5px solid white; */
+    border-image: 10px solid white;
+
+}
+.formulario{
+    background-color: lightblue;
+    text-align: center;
+}
+
+
+#final {
+    position: sticky;
+    bottom: 0;
+    /* width: 100%; */
+    background-color: rgb(210, 218, 250);
+    border: 3px solid rgb(55, 0, 255);
+    padding: 5px;
+    text-align: center;
+}
+
+#final ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    margin: 0;
+}
+
+#final li {
+   color:rgb(247, 10, 164);
 }
 
